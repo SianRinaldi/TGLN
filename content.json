@@ -1,0 +1,490 @@
+{
+  "_readme": "This is the only file you need to edit to update the website. Change the text between the quote marks, save, and the site updates. Do not change the words on the left of the colons. See README.md for a walkthrough.",
+  "site": {
+    "name": "the girls leadership network",
+    "shortName": "TGLN",
+    "tagline": "dream. believe. achieve.",
+    "description": "A Canberra-based, not-for-profit leadership community building the confidence, skills and networks of girls across the ACT.",
+    "url": "https://www.thegirlsleadershipnetwork.org",
+    "email": "thegirlsleadershipnetwork@gmail.com",
+    "acknowledgement": "The Girls Leadership Network acknowledges the Ngunnawal people as the Traditional Custodians of the land where we work, live and play. We pay our respects to Elders past and present, and we celebrate the stories, culture and traditions of Aboriginal and Torres Strait Islander peoples of all communities who also work and live on this land.",
+    "social": {
+      "Instagram": "https://www.instagram.com/thegirlsleadershipnetwork/",
+      "Facebook": "https://www.facebook.com/thegirlsleadershipnetwork/",
+      "LinkedIn": "https://www.linkedin.com/company/the-girls-leadership-network",
+      "TikTok": "https://www.tiktok.com/@tgln_cbr"
+    }
+  },
+  "registration": {
+    "_help": "This block controls the big banner on the home page. Set status to open, closed or soon. Change the year and the button each time registrations change.",
+    "status": "closed",
+    "year": "2026",
+    "nextYear": "2027",
+    "heading": "2026 registrations are closed",
+    "body": "Our 2026 cohort is full. Join the waitlist and you will be the first to hear when registrations open for 2027.",
+    "ctaLabel": "join the 2027 waitlist",
+    "ctaUrl": "https://forms.gle/REPLACE-WITH-YOUR-WAITLIST-FORM",
+    "ctaEnabled": true,
+    "secondaryNote": "Applying takes about three minutes. There is no cost and no obligation."
+  },
+  "home": {
+    "heroHeading": "Canberra’s next generation of leaders is already here",
+    "heroBody": "The Girls Leadership Network is a Canberra-based, not-for-profit leadership community. We build the confidence, skills and support girls need to lead with courage and clarity. Six workshops a year, small groups, real practice.",
+    "heroPrimaryLabel": "join the waitlist",
+    "heroSecondaryLabel": "how the program works",
+    "statsHeading": "TGLN at a glance",
+    "stats": [
+      {
+        "figure": "2017",
+        "label": "founded in Canberra"
+      },
+      {
+        "figure": "6",
+        "label": "workshops each year"
+      },
+      {
+        "figure": "15",
+        "label": "embassies hosting Girls Run the World"
+      },
+      {
+        "figure": "Hän",
+        "label": "honour from the Republic of Finland, 2019"
+      }
+    ],
+    "introHeading": "a local network, real leadership, lasting impact",
+    "introBody": "Built for girls in the ACT region, The Girls Leadership Network connects students across schools and communities into a supportive leadership community. This is not a one-off workshop. It is an ongoing growth experience, focused on practical leadership skills girls can use straight away in classrooms, teams, projects and everyday life.",
+    "columns": [
+      {
+        "heading": "the program",
+        "body": "Places are capped on purpose, so every girl is known and every voice gets airtime.",
+        "items": [
+          "Six monthly interactive leadership workshops",
+          "Small-group cohorts built for real connection",
+          "Age-aligned curriculum",
+          "In-person sessions across Canberra",
+          "Guest speakers and changemakers from the ACT community",
+          "Hands-on leadership activities, not lectures"
+        ]
+      },
+      {
+        "heading": "what girls gain",
+        "body": "Girls do not just learn leadership at TGLN. They practise it.",
+        "items": [
+          "Confident communication and public speaking",
+          "Decision-making and problem solving",
+          "Emotional intelligence and resilience",
+          "Values-based leadership",
+          "Collaboration and team leadership",
+          "Initiative and project ownership"
+        ]
+      },
+      {
+        "heading": "why schools choose us",
+        "body": "We work alongside Canberra schools and families to strengthen leadership pathways for girls across the region.",
+        "items": [
+          "Locally grounded and community connected",
+          "Skills aligned with future-ready capabilities",
+          "Safe, structured, professionally facilitated sessions",
+          "Focus on both confidence and character",
+          "Strong peer and mentor support"
+        ]
+      }
+    ],
+    "galleryHeading": "in the room",
+    "gallery": [
+      {
+        "img": "p1",
+        "alt": "TGLN participants working together in a small-group workshop"
+      },
+      {
+        "img": "p4",
+        "alt": "Girls in a TGLN session listening to a guest speaker"
+      },
+      {
+        "img": "p2",
+        "alt": "Participants presenting to their cohort during a leadership activity"
+      },
+      {
+        "img": "p5",
+        "alt": "A TGLN panel session with women leaders from the Canberra community"
+      },
+      {
+        "img": "p3",
+        "alt": "Girls collaborating around a table at a TGLN workshop"
+      },
+      {
+        "img": "p7",
+        "alt": "An early TGLN cohort gathered together after a session"
+      }
+    ],
+    "testimonialsHeading": "in their own words",
+    "testimonials": [
+      {
+        "quote": "The Girls Leadership Network has been such an amazing experience. I always looked forward to the sessions every month and I met some amazing new people and learned lots with the different workshops and panels.",
+        "name": "Mariya"
+      },
+      {
+        "quote": "So fun! We got to meet lots of different girls, and even old school friends. Learnt so much about leadership from the ladies on the panel, speakers, and other genuinely fun activities. Would recommend.",
+        "name": "Olivia"
+      },
+      {
+        "quote": "I was nervous at first because I didn’t think I would know anyone, but the program made it so easy to connect, learn and grow. The space is warm, inclusive and full of people who want to support each other.",
+        "name": "Mia"
+      },
+      {
+        "quote": "I have walked out of every session feeling motivated and ready to take on the world. I have made new friends, developed skills, stepped out of my comfort zone and learnt so much about myself.",
+        "name": "Sofia"
+      },
+      {
+        "quote": "The network helped me really know who I am now, who I want to be in the future, and the things I have to change to achieve my goals. Over two years with TGLN I have grown into someone I am proud of.",
+        "name": "Ellie"
+      },
+      {
+        "quote": "From networking with other participants to hearing the stories of inspiring speakers, there are so many great things the program has to offer. It gave me clarity and the advice to build new relationships and skills.",
+        "name": "Jasmine"
+      }
+    ],
+    "sponsorsHeading": "our sponsors",
+    "sponsorsBody": "The Girls Leadership Network is proudly supported by ThinkPlace and Synergy Group Australia.",
+    "sponsors": [
+      {
+        "img": "thinkplace",
+        "name": "ThinkPlace",
+        "url": "https://www.thinkplace.com.au"
+      },
+      {
+        "img": "synergy",
+        "name": "Synergy Group Australia",
+        "url": "https://www.synergygroup.net.au/"
+      }
+    ]
+  },
+  "ourStory": {
+    "title": "our story",
+    "heading": "why we created the girls leadership network",
+    "body": [
+      "Our founder, Ritu Clementi, ran similar programs with the Red Cross in North Carolina and Georgia in the United States. They were a success, and they won several accolades including the Martin Luther King Jr Diversity award from Nike.",
+      "After moving to Canberra, Ritu found there were few long-term programs for senior girls across the ACT. She received a Great Ydeas grant in May 2016 to start one, and began building it with her daughter Asha, who was also the target audience.",
+      "Asha and Ritu brought in founding volunteers: Wendy Marman on the initial leadership content, alongside Sian Rinaldi, Ladan Amirazizi and Catherine McGufficke. In 2020 we opened a Sydney chapter, led by TGLN alum Gabrielle Murphy. In 2025 Alison McCarthy and Rachel O’Connor joined as session coordinators for the Canberra chapter."
+    ],
+    "mediaHeading": "TGLN in the media",
+    "media": [
+      {
+        "title": "Shaping tomorrow’s female leaders",
+        "source": "HerCanberra",
+        "url": "http://hercanberra.com.au/cplife/the-girls-leadership-network-canberra/"
+      },
+      {
+        "title": "Great Ydeas, where are they now?",
+        "source": "YWCA Canberra",
+        "url": "https://ywca-canberra.org.au/blog/2017/03/great-ydeas-now-ritu-clementi/"
+      },
+      {
+        "title": "The Girls Leadership Network",
+        "source": "St Clare’s Tidings, written by participant Helen Brumby",
+        "url": "https://issuu.com/stclares/docs/tidings_edition_1_2018/14"
+      },
+      {
+        "title": "What is the Girls Leadership Network?",
+        "source": "RiotACT Canberra",
+        "url": "https://the-riotact.com/what-is-the-girls-leadership-network/231158"
+      }
+    ]
+  },
+  "theNetwork": {
+    "title": "the network",
+    "heading": "the network",
+    "intro": "The Girls Leadership Network was founded in 2017. Each year a new group of young women comes together to build their skills and their networks. These are some of the reasons they told us they joined.",
+    "reasons": [
+      "My personal leadership goal is to be more self-assured and confident in my ability to communicate to others.",
+      "I’m hoping to learn how to grow in leadership with other girls, and how to inspire and encourage one another.",
+      "I’m a college captain of a big school, so I would love to learn how to be myself while still leading a large team.",
+      "I hope to hear from a range of speakers about their leadership experiences, especially people who have come from different places.",
+      "Growing up is hard. You’re always being influenced by the media and other people’s opinions, so stepping out of your comfort zone to be a leader and not a follower can be a challenge."
+    ],
+    "teamHeading": "leadership team",
+    "teamNote": "TGLN runs on volunteers. Our current leadership team:",
+    "team": [
+      "Ritu Gupta Clementi",
+      "Asha Clementi",
+      "Sian Rinaldi",
+      "Gabrielle Murphy",
+      "Alison McCarthy",
+      "Rachel O’Connor"
+    ]
+  },
+  "grtw": {
+    "title": "girls run the world",
+    "heading": "girls run the world",
+    "url": "https://www.girlsruntheworld.com.au/",
+    "intro": "Founded in 2017, Girls Run the World gives young leaders aged 18 to 25 a day in the life of an embassy staff member.",
+    "body": [
+      "Working alongside embassy staff, a participant’s day might include discussing humanitarian issues, meeting the ambassador, planning the agenda for a business delegation, or running the embassy’s social media.",
+      "Experiencing embassy work first hand, participants build connections in the field as they work towards their own goals. The program has grown to more than 30 participants across 15 embassies."
+    ],
+    "goalsHeading": "what the takeover day sets out to do",
+    "goals": [
+      "Share knowledge across cultures and give young women real exposure to diplomacy",
+      "Introduce embassies to a wider Australian audience and support their social impact work",
+      "Put young women in situations where they make, influence or inform a real decision"
+    ],
+    "hanHeading": "Hän honours",
+    "hanBody": "In November 2019 The Girls Leadership Network received Hän Honours from the Republic of Finland, recognising the collaboration between TGLN and the Embassy of Finland that created Girls Run the World. The Hän Honours go to organisations working to build a more equal world.",
+    "hanLinkLabel": "read about Finland’s Hän campaign",
+    "hanLinkUrl": "https://finland.fi/han/#QA",
+    "images": [
+      {
+        "img": "grtw1",
+        "alt": "Girls Run the World participants with embassy staff"
+      },
+      {
+        "img": "han1",
+        "alt": "TGLN receiving the Hän Honours award at the Embassy of Finland"
+      },
+      {
+        "img": "han2",
+        "alt": "Attendees at the Hän Honours presentation"
+      },
+      {
+        "img": "han3",
+        "alt": "Girls Run the World participants at the Hän Honours event"
+      }
+    ]
+  },
+  "getInvolved": {
+    "title": "get involved",
+    "heading": "get involved",
+    "intro": "The Girls Leadership Network runs on the support, insight and energy of our community. Whether you teach, speak, lead an organisation or came through the program yourself, there is a way in.",
+    "ways": [
+      {
+        "heading": "educators",
+        "body": "You see the potential in your students every day, and you know which girls are ready to step up.",
+        "items": [
+          "Spot and nominate students who show leadership promise",
+          "Share TGLN programs and opportunities with your cohorts",
+          "Support girls through workshops, mentoring and hands-on projects",
+          "Build confidence, collaboration and initiative inside your school"
+        ],
+        "ctaLabel": "email us about your school",
+        "ctaUrl": "mailto:thegirlsleadershipnetwork@gmail.com?subject=School%20enquiry"
+      },
+      {
+        "heading": "speakers and facilitators",
+        "body": "Share what you know with girls who are ready to lead. We are looking for industry leaders, changemakers, politicians, community figures and subject experts who will run an interactive session.",
+        "items": [
+          "Lead a workshop on your area of expertise",
+          "Sit on a panel and answer real questions",
+          "Mentor girls through a leadership challenge"
+        ],
+        "ctaLabel": "complete the expression of interest form",
+        "ctaUrl": "https://forms.gle/DUgGYWqaWX35Ys7U7"
+      },
+      {
+        "heading": "alumni",
+        "body": "Once a TGLN girl, always part of the network. Alumni share what they learned and show the next cohort what is possible.",
+        "items": [
+          "Share your leadership experience with current participants",
+          "Stay connected with the network as your career takes shape"
+        ],
+        "ctaLabel": "join the alumni group",
+        "ctaUrl": "https://www.facebook.com/share/g/17oeDNRiYx/"
+      },
+      {
+        "heading": "partners and sponsors",
+        "body": "Every contribution strengthens the network. Partnership can be financial, in-kind, or the loan of a room and a few good people.",
+        "items": [
+          "Sponsor a program, a workshop or a cohort",
+          "Provide in-kind support such as venues, catering or printing",
+          "Volunteer at events or on projects",
+          "Advocate for girls' leadership across Canberra"
+        ],
+        "ctaLabel": "start a conversation",
+        "ctaUrl": "mailto:thegirlsleadershipnetwork@gmail.com?subject=Partnership%20enquiry"
+      }
+    ],
+    "closing": "Interested in making a difference? Email us at thegirlsleadershipnetwork@gmail.com and we will find the right place for you."
+  },
+  "blog": {
+    "title": "podcast and blog",
+    "heading": "podcast and blog",
+    "intro": "TGLN’s podcast helps young women and non-binary folk dream, believe and achieve their goals. Episodes are on Spotify, Apple Podcasts and our host platform.",
+    "posts": [
+      {
+        "slug": "gamification-and-motivation-with-kerstin-oberprieler",
+        "legacyPath": "/epsiode1/",
+        "title": "gamification and motivation with Kerstin Oberprieler",
+        "episode": "Episode 1",
+        "date": "2020-07-11",
+        "dateLabel": "11 July 2020",
+        "author": "Gabi Murphy",
+        "summary": "Kerstin Oberprieler on turning goals into games, and why anything you can measure you can turn into motivation.",
+        "listenUrl": "https://anchor.fm/the-girls-leadership-network/episodes/1--Motivation-and-Gamification-with-Kerstin-Oberprieler-egj5d2",
+        "body": [
+          "This episode is available as a podcast. You can listen on our host platform, or on Spotify and Apple Podcasts.",
+          "Our first episode is with Kerstin Oberprieler, co-founder and CEO of PentaQuest. PentaQuest works on employee engagement through gamification, which uses game mechanics and experience design to get people solving problems. Gamification takes mechanics such as goals, avatars and points, and uses them to shift behaviour.",
+          "Kerstin credits her interest in gamification to her love of teamwork, her psychology and commerce background, and her time at Australian consulting firm ThinkPlace. After using gamification at ThinkPlace she went on to complete a PhD in it, then started PentaQuest so other organisations could use it too.",
+          "PentaQuest works with large teams and processes, but gamification also works at an individual level. You can use it for exercise, study or savings. Anything you can measure, you can turn into a game.",
+          "Ticking items off a list is gamification, because a list is a progress bar. So is tracking your steps on a watch, or charting your savings towards a goal."
+        ],
+        "links": [
+          {
+            "label": "PentaQuest",
+            "url": "https://www.pentaquest.io/"
+          },
+          {
+            "label": "Kerstin on LinkedIn",
+            "url": "https://www.linkedin.com/in/kerstin-oberprieler-60026846/"
+          },
+          {
+            "label": "Kerstin’s TEDx talk",
+            "url": "https://www.youtube.com/watch?v=R6F0CuzEu0A"
+          }
+        ]
+      }
+    ]
+  },
+  "childSafety": {
+    "title": "child safety",
+    "heading": "our commitment to child safety",
+    "_help": "REVIEW BEFORE LAUNCH. Confirm the wording with your leadership team and update the placeholders in square brackets.",
+    "intro": "The Girls Leadership Network is committed to the safety, wellbeing and participation of every young person in our programs. We have zero tolerance for child abuse and harm of any kind.",
+    "sections": [
+      {
+        "heading": "how we keep girls safe",
+        "items": [
+          "All facilitators, session coordinators and volunteers who work directly with participants hold a current ACT Working with Vulnerable People registration.",
+          "Sessions are run in supervised venues with at least two adults present at all times.",
+          "Guest speakers are briefed on our expectations before every session and are not left unsupervised with participants.",
+          "We follow the National Principles for Child Safe Organisations."
+        ]
+      },
+      {
+        "heading": "photos and media",
+        "items": [
+          "We ask a parent or guardian for written consent before we photograph or film a participant.",
+          "Consent can be withdrawn at any time by emailing us, and we will remove the image from our website and social media.",
+          "We never publish a participant’s full name alongside a photograph without consent."
+        ]
+      },
+      {
+        "heading": "raising a concern",
+        "items": [
+          "If you have a concern about the safety or wellbeing of a young person in our programs, contact us at [CONTACT NAME AND EMAIL].",
+          "If a child is in immediate danger, call 000.",
+          "To report a concern about child abuse or neglect in the ACT, contact Child and Youth Protection Services on 1300 556 729."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "privacy",
+    "heading": "privacy",
+    "_help": "REVIEW BEFORE LAUNCH. Replace every placeholder in square brackets. See privacy-policy-draft.md for the full draft and the notes for the leadership team.",
+    "updated": "Last reviewed [DATE]",
+    "intro": "The Girls Leadership Network is a not-for-profit leadership community for girls in the ACT region. Most of the people whose information we hold are under 18, so we treat that information with more care than the law strictly requires of an organisation our size. We handle personal information in line with the Australian Privacy Principles in the Privacy Act 1988 (Cth).",
+    "sections": [
+      {
+        "heading": "what we collect from participants and their families",
+        "items": [
+          "Name, date of birth, school and year level.",
+          "Contact details for the participant and for a parent or guardian, plus an emergency contact.",
+          "Health and access information, including allergies, dietary requirements, medical conditions and any support a participant needs to take part.",
+          "What a participant tells us about their leadership goals, and any feedback they give us."
+        ]
+      },
+      {
+        "heading": "what we collect from speakers, volunteers and educators",
+        "items": [
+          "Name, organisation, role and contact details.",
+          "Areas of expertise and availability.",
+          "Working with Vulnerable People registration number and expiry date, where the role requires one."
+        ]
+      },
+      {
+        "heading": "sensitive information",
+        "items": [
+          "Health information, disability, cultural background and Aboriginal or Torres Strait Islander status are sensitive information under the Privacy Act.",
+          "We collect these only where we need them to keep a participant safe or to make a session accessible, and only with consent.",
+          "We do not share sensitive information with sponsors, schools or speakers. It goes to the facilitators running the session and no further."
+        ]
+      },
+      {
+        "heading": "consent, and how it works for young people",
+        "items": [
+          "For participants under 15, we ask a parent or guardian to consent, and we explain to the participant what we are collecting and why.",
+          "Participants aged 15 and over can usually consent for themselves. We still keep a parent or guardian informed about registration, health information and emergency arrangements.",
+          "Consent is not a one-off. A participant or their family can change their mind at any time by emailing us."
+        ]
+      },
+      {
+        "heading": "photos, video and social media",
+        "items": [
+          "We ask a parent or guardian for written consent before we photograph or film a participant.",
+          "Photo consent is separate from program registration. Saying no to photos does not affect a place in the program.",
+          "We do not publish a participant's full name alongside a photograph.",
+          "You can withdraw consent at any time by emailing [CONTACT EMAIL]. We will remove the image from our website and social media within [10 business days]. Printed material already distributed cannot be recalled."
+        ]
+      },
+      {
+        "heading": "why we collect it",
+        "items": [
+          "To run our programs and keep participants safe.",
+          "To communicate with participants and their families about sessions, changes and opportunities.",
+          "To match speakers and facilitators to sessions.",
+          "To report to sponsors and grant bodies, using numbers and de-identified information only.",
+          "We do not sell personal information and we do not use it for advertising."
+        ]
+      },
+      {
+        "heading": "who we share it with",
+        "items": [
+          "Facilitators and session coordinators get only what they need to run a safe session.",
+          "Venues get participant numbers, and health or access information where the venue needs it.",
+          "Guest speakers get session numbers and age range. Never contact details or health information.",
+          "Sponsors and grant bodies get de-identified reporting. We seek separate consent before using a named testimonial or a photograph.",
+          "We use Google Workspace and Google Forms to run our email and registrations, and [HOSTING PROVIDER] to host this website. These providers store information on servers that may be located outside Australia, including in the United States.",
+          "We share information where the law requires it, or where there is a risk to someone's safety. This includes reporting a child protection concern to ACT Child and Youth Protection Services."
+        ]
+      },
+      {
+        "heading": "how we store it and how long we keep it",
+        "items": [
+          "Records are held in TGLN's Google Workspace, with access limited to the leadership team members who need it. Accounts use multi-factor authentication.",
+          "Participant registration records are kept for [7 years] after a participant's last program, then deleted.",
+          "Health and emergency information is deleted at the end of each program year.",
+          "Speaker and volunteer records are kept for [2 years] after last contact.",
+          "Photographs are kept while consent stands, and deleted on request.",
+          "If information is lost or accessed without authorisation and it is likely to cause serious harm, we will tell the people affected and the Office of the Australian Information Commissioner as soon as we can."
+        ]
+      },
+      {
+        "heading": "this website",
+        "items": [
+          "This site does not use advertising cookies and does not track you across other websites.",
+          "Fonts and images are served from our own domain, so loading a page does not send your details to a third party.",
+          "Our hosting provider keeps standard server logs, including IP addresses, for security and performance."
+        ]
+      },
+      {
+        "heading": "getting your information, correcting it, or having it deleted",
+        "items": [
+          "Email [CONTACT NAME] at [CONTACT EMAIL] and ask. We will respond within [30 days], at no charge.",
+          "You can ask us what we hold about you, ask us to correct anything that is wrong, or ask us to delete it unless we are required to keep it."
+        ]
+      },
+      {
+        "heading": "complaints",
+        "items": [
+          "Email [CONTACT NAME] at [CONTACT EMAIL]. We will acknowledge your complaint within [5 business days] and answer within [30 days].",
+          "If you are not satisfied with our response, you can complain to the Office of the Australian Information Commissioner at oaic.gov.au or on 1300 363 992."
+        ]
+      },
+      {
+        "heading": "changes to this policy",
+        "items": [
+          "We review this policy every [12 months]. The current version is always on this page, with the review date at the top."
+        ]
+      }
+    ]
+  }
+}
