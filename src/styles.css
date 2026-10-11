@@ -1,14 +1,14 @@
 /* ==========================================================================
    the girls leadership network
-   Palette taken directly from the logo mark: four overlapping circles.
+   Palette and type from the official TGLN brand guidelines. Poppins only.
    ========================================================================== */
 
 :root {
-  --purple: #6c30a8;
-  --purple-deep: #46196f;
-  --magenta: #e424c0;
-  --orange: #fc6c00;
-  --gold: #f0b400;
+  --purple: #6e31b3;
+  --purple-deep: #4a1f7a;
+  --magenta: #eb2cc2;
+  --orange: #fd7400;
+  --gold: #fab800;
 
   --ink: #241432;
   --ink-soft: #574364;
@@ -21,7 +21,7 @@
   --stack: clamp(3.5rem, 8vw, 6.5rem);
 
   --font-display: "Poppins", "Segoe UI", system-ui, sans-serif;
-  --font-body: "Karla", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Poppins", "Segoe UI", system-ui, sans-serif;
 }
 
 *,
@@ -46,7 +46,7 @@ body {
   font-family: var(--font-body);
   font-size: clamp(1.0625rem, 0.4vw + 1rem, 1.1875rem);
   line-height: 1.65;
-  font-weight: 400;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -297,7 +297,7 @@ ul.ticks li::before {
 
 /* -------------------------------------------------------------- footer --- */
 
-.footer { background: var(--purple-deep); color: #efe6f7; padding-block: var(--stack) 2.5rem; }
+.footer { background: var(--purple-deep); color: #efe6f7; font-weight: 400; padding-block: var(--stack) 2.5rem; }
 .footer a { color: #fff; }
 .footer h2 { color: #fff; font-size: clamp(1.6rem, 3vw, 2.2rem); }
 .footer-grid { display: grid; gap: 2.5rem; grid-template-columns: 1.4fr 1fr 1fr; }

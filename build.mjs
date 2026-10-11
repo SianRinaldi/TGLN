@@ -63,7 +63,7 @@ function head(page) {
 <link rel="icon" href="/img/logo-mark.png" type="image/png">
 <link rel="apple-touch-icon" href="/img/logo-mark.png">
 <link rel="preload" href="/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/karla-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/poppins-300.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="stylesheet" href="/styles.css">
 ${page.schema ? `<script type="application/ld+json">${JSON.stringify(page.schema)}</script>` : ""}
@@ -234,7 +234,9 @@ ${registrationBlock()}
     ${h.sponsors
       .map(
         (s) =>
-          `<a href="${e(s.url)}" rel="noopener"><img src="/img/${s.img}.webp" alt="${e(s.name)}" loading="lazy"></a>`
+          s.url
+            ? `<a href="${e(s.url)}" rel="noopener"><img src="/img/${s.img}.webp" alt="${e(s.name)}" loading="lazy"></a>`
+            : `<img src="/img/${s.img}.webp" alt="${e(s.name)}" loading="lazy">`
       )
       .join("")}
   </div>

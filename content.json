@@ -6,7 +6,7 @@
     "tagline": "dream. believe. achieve.",
     "description": "A Canberra-based, not-for-profit leadership community building the confidence, skills and networks of girls across the ACT.",
     "url": "https://www.thegirlsleadershipnetwork.org",
-    "email": "thegirlsleadershipnetwork@gmail.com",
+    "email": "admin@thegirlsleadershipnetwork.org",
     "acknowledgement": "The Girls Leadership Network acknowledges the Ngunnawal people as the Traditional Custodians of the land where we work, live and play. We pay our respects to Elders past and present, and we celebrate the stories, culture and traditions of Aboriginal and Torres Strait Islander peoples of all communities who also work and live on this land.",
     "social": {
       "Instagram": "https://www.instagram.com/thegirlsleadershipnetwork/",
@@ -144,20 +144,16 @@
         "name": "Jasmine"
       }
     ],
-    "sponsorsHeading": "our sponsors",
-    "sponsorsBody": "The Girls Leadership Network is proudly supported by ThinkPlace and Synergy Group Australia.",
+    "sponsorsHeading": "supported by",
+    "sponsorsBody": "The Girls Leadership Network is proudly supported by Unordinary.",
     "sponsors": [
       {
-        "img": "thinkplace",
-        "name": "ThinkPlace",
-        "url": "https://www.thinkplace.com.au"
-      },
-      {
-        "img": "synergy",
-        "name": "Synergy Group Australia",
-        "url": "https://www.synergygroup.net.au/"
+        "img": "unordinary",
+        "name": "Unordinary",
+        "url": ""
       }
-    ]
+    ],
+    "_sponsorsHelp": "Leave url empty to show a logo without a link."
   },
   "ourStory": {
     "title": "our story",
@@ -266,7 +262,7 @@
           "Build confidence, collaboration and initiative inside your school"
         ],
         "ctaLabel": "email us about your school",
-        "ctaUrl": "mailto:thegirlsleadershipnetwork@gmail.com?subject=School%20enquiry"
+        "ctaUrl": "mailto:admin@thegirlsleadershipnetwork.org?subject=School%20enquiry"
       },
       {
         "heading": "speakers and facilitators",
@@ -299,10 +295,10 @@
           "Advocate for girls' leadership across Canberra"
         ],
         "ctaLabel": "start a conversation",
-        "ctaUrl": "mailto:thegirlsleadershipnetwork@gmail.com?subject=Partnership%20enquiry"
+        "ctaUrl": "mailto:admin@thegirlsleadershipnetwork.org?subject=Partnership%20enquiry"
       }
     ],
-    "closing": "Interested in making a difference? Email us at thegirlsleadershipnetwork@gmail.com and we will find the right place for you."
+    "closing": "Interested in making a difference? Email us at admin@thegirlsleadershipnetwork.org and we will find the right place for you."
   },
   "blog": {
     "title": "podcast and blog",
@@ -369,7 +365,7 @@
       {
         "heading": "raising a concern",
         "items": [
-          "If you have a concern about the safety or wellbeing of a young person in our programs, contact us at [CONTACT NAME AND EMAIL].",
+          "If you have a concern about the safety or wellbeing of a young person in our programs, email us at admin@thegirlsleadershipnetwork.org.",
           "If a child is in immediate danger, call 000.",
           "To report a concern about child abuse or neglect in the ACT, contact Child and Youth Protection Services on 1300 556 729."
         ]
@@ -421,8 +417,8 @@
         "items": [
           "We ask a parent or guardian for written consent before we photograph or film a participant.",
           "Photo consent is separate from program registration. Saying no to photos does not affect a place in the program.",
-          "We do not publish a participant's full name alongside a photograph.",
-          "You can withdraw consent at any time by emailing [CONTACT EMAIL]. We will remove the image from our website and social media within [10 business days]. Printed material already distributed cannot be recalled."
+          "We do not publish a participant’s full name alongside a photograph.",
+          "You can withdraw consent at any time by emailing admin@thegirlsleadershipnetwork.org. We will remove the image from our website and social media within [10 business days]. Printed material already distributed cannot be recalled."
         ]
       },
       {
@@ -442,15 +438,15 @@
           "Venues get participant numbers, and health or access information where the venue needs it.",
           "Guest speakers get session numbers and age range. Never contact details or health information.",
           "Sponsors and grant bodies get de-identified reporting. We seek separate consent before using a named testimonial or a photograph.",
-          "We use Google Workspace and Google Forms to run our email and registrations, and [HOSTING PROVIDER] to host this website. These providers store information on servers that may be located outside Australia, including in the United States.",
-          "We share information where the law requires it, or where there is a risk to someone's safety. This includes reporting a child protection concern to ACT Child and Youth Protection Services."
+          "We use Google Workspace and Google Forms to run our email and registrations, and Vercel to host this website. These providers store information on servers that may be located outside Australia, including in the United States.",
+          "We share information where the law requires it, or where there is a risk to someone’s safety. This includes reporting a child protection concern to ACT Child and Youth Protection Services."
         ]
       },
       {
         "heading": "how we store it and how long we keep it",
         "items": [
-          "Records are held in TGLN's Google Workspace, with access limited to the leadership team members who need it. Accounts use multi-factor authentication.",
-          "Participant registration records are kept for [7 years] after a participant's last program, then deleted.",
+          "Records are held in TGLN’s Google Workspace, with access limited to the leadership team members who need it. Accounts use multi-factor authentication.",
+          "Participant registration records are kept for [7 years] after a participant’s last program, then deleted.",
           "Health and emergency information is deleted at the end of each program year.",
           "Speaker and volunteer records are kept for [2 years] after last contact.",
           "Photographs are kept while consent stands, and deleted on request.",
@@ -468,14 +464,14 @@
       {
         "heading": "getting your information, correcting it, or having it deleted",
         "items": [
-          "Email [CONTACT NAME] at [CONTACT EMAIL] and ask. We will respond within [30 days], at no charge.",
+          "Email the leadership team at admin@thegirlsleadershipnetwork.org and ask. We will respond within [30 days], at no charge.",
           "You can ask us what we hold about you, ask us to correct anything that is wrong, or ask us to delete it unless we are required to keep it."
         ]
       },
       {
         "heading": "complaints",
         "items": [
-          "Email [CONTACT NAME] at [CONTACT EMAIL]. We will acknowledge your complaint within [5 business days] and answer within [30 days].",
+          "Email the leadership team at admin@thegirlsleadershipnetwork.org. We will acknowledge your complaint within [5 business days] and answer within [30 days].",
           "If you are not satisfied with our response, you can complain to the Office of the Australian Information Commissioner at oaic.gov.au or on 1300 363 992."
         ]
       },
