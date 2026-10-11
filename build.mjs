@@ -52,7 +52,7 @@ function head(page) {
 <meta property="og:url" content="${SITE}${page.path}">
 <meta property="og:image" content="${SITE}/img/logo-mark.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#6c30a8">
+<meta name="theme-color" content="#6e31b3">
 <link rel="icon" href="/img/logo-mark.png" type="image/png">
 <link rel="apple-touch-icon" href="/img/logo-mark.png">
 <link rel="preload" href="/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
