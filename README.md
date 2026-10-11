@@ -59,5 +59,5 @@ Needs Node 18 or later. No packages to install.
 Three things still need a decision. They are marked with square brackets in `content.json`:
 
 - The waitlist form URL in the `registration` block.
-- The contact name and email in the `childSafety` block.
-- The review date and contact email in the `privacy` block.
+- Whether to name a contact person in the `childSafety` block, alongside the shared mailbox.
+- The review date and timeframes in the `privacy` block. The privacy page is switched off (`"published": false`) until these are confirmed.

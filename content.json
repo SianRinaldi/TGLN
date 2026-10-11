@@ -150,10 +150,9 @@
       {
         "img": "unordinary",
         "name": "Unordinary",
-        "url": ""
+        "url": "https://theunordinary.au"
       }
-    ],
-    "_sponsorsHelp": "Leave url empty to show a logo without a link."
+    ]
   },
   "ourStory": {
     "title": "our story",
@@ -373,6 +372,8 @@
     ]
   },
   "privacy": {
+    "published": false,
+    "_publishedHelp": "Set to true to put the privacy page back on the site and in the footer.",
     "title": "privacy",
     "heading": "privacy",
     "_help": "REVIEW BEFORE LAUNCH. Replace every placeholder in square brackets. See privacy-policy-draft.md for the full draft and the notes for the leadership team.",

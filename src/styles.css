@@ -10,6 +10,13 @@
   --orange: #fd7400;
   --gold: #fab800;
 
+  /* Darker shades of the brand accents for text and white-text backgrounds.
+     Each passes WCAG AA (4.5:1) on --paper and --wash. The bright brand
+     colours above stay for borders, dots and other decoration. */
+  --magenta-text: #cc13a4;
+  --orange-text: #b55300;
+  --gold-text: #8f6900;
+
   --ink: #241432;
   --ink-soft: #574364;
   --paper: #ffffff;
@@ -73,7 +80,7 @@ p { margin: 0 0 1.15em; max-width: var(--measure); }
 .lede { font-size: clamp(1.15rem, 1vw + 1rem, 1.4rem); line-height: 1.5; color: var(--ink-soft); max-width: 40rem; }
 
 a { color: var(--purple); text-decoration-thickness: 1px; text-underline-offset: 3px; }
-a:hover { color: var(--magenta); }
+a:hover { color: var(--magenta-text); }
 
 :focus-visible {
   outline: 3px solid var(--magenta);
@@ -139,7 +146,7 @@ section + section { padding-top: 0; }
   color: var(--ink); text-decoration: none; padding-block: 0.35rem;
   border-bottom: 2px solid transparent;
 }
-.nav a:hover { color: var(--magenta); border-bottom-color: var(--magenta); }
+.nav a:hover { color: var(--magenta-text); border-bottom-color: var(--magenta-text); }
 .nav a[aria-current="page"] { color: var(--purple); border-bottom-color: var(--purple); }
 
 @media (max-width: 60rem) {
@@ -164,7 +171,7 @@ section + section { padding-top: 0; }
   background: var(--purple); color: #fff;
   transition: background-color 0.18s ease, border-color 0.18s ease, color 0.18s ease;
 }
-.btn:hover { background: var(--magenta); border-color: var(--magenta); color: #fff; }
+.btn:hover { background: var(--magenta-text); border-color: var(--magenta-text); color: #fff; }
 .btn-ghost { background: transparent; color: var(--purple-deep); }
 .btn-ghost:hover { background: var(--purple-deep); border-color: var(--purple-deep); color: #fff; }
 .btn-row { display: flex; flex-wrap: wrap; gap: 0.85rem; margin-top: 2rem; }
@@ -176,13 +183,16 @@ section + section { padding-top: 0; }
 .hero h1 { max-width: 15ch; }
 .hero .lede { max-width: 36rem; }
 
+/* The approved brand mark, shown at full colour. The guidelines do not allow
+   it to be faded or recoloured, so on narrower screens, where it would sit
+   behind the text, it is hidden. The header logo still shows. */
 .hero-mark {
   position: absolute; z-index: 1; pointer-events: none;
-  right: 3vw; top: 50%; transform: translateY(-50%);
-  width: min(34vw, 400px); opacity: 0.34;
+  right: max(var(--gutter), calc((100vw - 76rem) / 2 + var(--gutter))); top: 50%; transform: translateY(-50%);
+  width: min(30vw, 400px);
 }
-@media (max-width: 68rem) {
-  .hero-mark { right: -12vw; top: 8%; transform: none; width: 52vw; opacity: 0.16; }
+@media (max-width: 72rem) {
+  .hero-mark { display: none; }
 }
 
 /* --------------------------------------------------------------- stats --- */
@@ -195,9 +205,9 @@ section + section { padding-top: 0; }
   letter-spacing: -0.03em; margin-bottom: 0.45rem;
 }
 .stats span { font-size: 0.95rem; color: var(--ink-soft); display: block; max-width: 18ch; }
-.stats div:nth-child(2) b { color: var(--magenta); }
-.stats div:nth-child(3) b { color: var(--orange); }
-.stats div:nth-child(4) b { color: #c98f00; }
+.stats div:nth-child(2) b { color: var(--magenta-text); }
+.stats div:nth-child(3) b { color: var(--orange-text); }
+.stats div:nth-child(4) b { color: var(--gold-text); }
 @media (max-width: 52rem) { .stats { grid-template-columns: repeat(2, 1fr); } }
 
 /* ------------------------------------------------------- registration ---- */
@@ -299,6 +309,8 @@ ul.ticks li::before {
 
 .footer { background: var(--purple-deep); color: #efe6f7; font-weight: 400; padding-block: var(--stack) 2.5rem; }
 .footer a { color: #fff; }
+.footer a:hover { color: var(--gold); }
+.footer :focus-visible { outline-color: var(--gold); }
 .footer h2 { color: #fff; font-size: clamp(1.6rem, 3vw, 2.2rem); }
 .footer-grid { display: grid; gap: 2.5rem; grid-template-columns: 1.4fr 1fr 1fr; }
 @media (max-width: 56rem) { .footer-grid { grid-template-columns: 1fr; } }

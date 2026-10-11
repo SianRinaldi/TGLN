@@ -27,14 +27,7 @@ const NAV = [
 
 const markRule = `<div class="mark-rule" aria-hidden="true"><span></span><span></span><span></span><span></span></div>`;
 
-const heroMark = `<svg class="hero-mark" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-  <g style="mix-blend-mode:multiply">
-    <circle cx="100" cy="62" r="58" fill="#6c30a8"/>
-    <circle cx="62" cy="100" r="58" fill="#fc6c00"/>
-    <circle cx="138" cy="100" r="58" fill="#e424c0"/>
-    <circle cx="100" cy="138" r="58" fill="#f0b400"/>
-  </g>
-</svg>`;
+const heroMark = `<img class="hero-mark" src="/img/logo-mark.webp" width="512" height="512" alt="" aria-hidden="true" decoding="async">`;
 
 const picture = (name, alt, cls = "", lazy = true) =>
   `<img src="/img/${name}-lg.webp" srcset="/img/${name}-sm.webp 640w, /img/${name}-lg.webp 1280w" sizes="(max-width: 52rem) 90vw, 40rem" alt="${e(alt)}"${cls ? ` class="${cls}"` : ""} loading="${lazy ? "lazy" : "eager"}" decoding="async">`;
@@ -111,7 +104,7 @@ function foot() {
         <h3 style="margin-top:1.75rem">policies</h3>
         <ul>
           <li><a href="/child-safety/">child safety</a></li>
-          <li><a href="/privacy/">privacy</a></li>
+          ${C.privacy.published ? `<li><a href="/privacy/">privacy</a></li>` : ""}
         </ul>
       </div>
     </div>
@@ -407,7 +400,7 @@ write("/girls-run-the-world/", grtwPage());
 write("/get-involved/", getInvolvedPage());
 write("/blog/", blogIndexPage());
 write("/child-safety/", policyPage(C.childSafety, "/child-safety/"));
-write("/privacy/", policyPage(C.privacy, "/privacy/"));
+if (C.privacy.published) write("/privacy/", policyPage(C.privacy, "/privacy/"));
 for (const post of C.blog.posts) write(`/blog/${post.slug}/`, postPage(post));
 writeFileSync(join(OUT, "404.html"), notFoundPage());
 
@@ -420,7 +413,7 @@ const urls = [
   "/blog/",
   ...C.blog.posts.map((p) => `/blog/${p.slug}/`),
   "/child-safety/",
-  "/privacy/",
+  ...(C.privacy.published ? ["/privacy/"] : []),
 ];
 writeFileSync(
   join(OUT, "sitemap.xml"),
