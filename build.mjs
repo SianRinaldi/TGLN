@@ -27,14 +27,7 @@ const NAV = [
 
 const markRule = `<div class="mark-rule" aria-hidden="true"><span></span><span></span><span></span><span></span></div>`;
 
-const heroMark = `<svg class="hero-mark" viewBox="0 0 200 200" aria-hidden="true" focusable="false">
-  <g style="mix-blend-mode:multiply">
-    <circle cx="100" cy="62" r="58" fill="#6c30a8"/>
-    <circle cx="62" cy="100" r="58" fill="#fc6c00"/>
-    <circle cx="138" cy="100" r="58" fill="#e424c0"/>
-    <circle cx="100" cy="138" r="58" fill="#f0b400"/>
-  </g>
-</svg>`;
+const heroMark = `<img class="hero-mark" src="/img/logo-mark.webp" width="512" height="512" alt="" aria-hidden="true" decoding="async">`;
 
 const picture = (name, alt, cls = "", lazy = true) =>
   `<img src="/img/${name}-lg.webp" srcset="/img/${name}-sm.webp 640w, /img/${name}-lg.webp 1280w" sizes="(max-width: 52rem) 90vw, 40rem" alt="${e(alt)}"${cls ? ` class="${cls}"` : ""} loading="${lazy ? "lazy" : "eager"}" decoding="async">`;
@@ -59,11 +52,11 @@ function head(page) {
 <meta property="og:url" content="${SITE}${page.path}">
 <meta property="og:image" content="${SITE}/img/logo-mark.png">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="theme-color" content="#6c30a8">
+<meta name="theme-color" content="#6e31b3">
 <link rel="icon" href="/img/logo-mark.png" type="image/png">
 <link rel="apple-touch-icon" href="/img/logo-mark.png">
 <link rel="preload" href="/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/karla-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/poppins-300.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="stylesheet" href="/styles.css">
 ${page.schema ? `<script type="application/ld+json">${JSON.stringify(page.schema)}</script>` : ""}
@@ -111,7 +104,7 @@ function foot() {
         <h3 style="margin-top:1.75rem">policies</h3>
         <ul>
           <li><a href="/child-safety/">child safety</a></li>
-          <li><a href="/privacy/">privacy</a></li>
+          ${C.privacy.published ? `<li><a href="/privacy/">privacy</a></li>` : ""}
         </ul>
       </div>
     </div>
@@ -234,7 +227,9 @@ ${registrationBlock()}
     ${h.sponsors
       .map(
         (s) =>
-          `<a href="${e(s.url)}" rel="noopener"><img src="/img/${s.img}.webp" alt="${e(s.name)}" loading="lazy"></a>`
+          s.url
+            ? `<a href="${e(s.url)}" rel="noopener"><img src="/img/${s.img}.webp" alt="${e(s.name)}" loading="lazy"></a>`
+            : `<img src="/img/${s.img}.webp" alt="${e(s.name)}" loading="lazy">`
       )
       .join("")}
   </div>
@@ -405,7 +400,7 @@ write("/girls-run-the-world/", grtwPage());
 write("/get-involved/", getInvolvedPage());
 write("/blog/", blogIndexPage());
 write("/child-safety/", policyPage(C.childSafety, "/child-safety/"));
-write("/privacy/", policyPage(C.privacy, "/privacy/"));
+if (C.privacy.published) write("/privacy/", policyPage(C.privacy, "/privacy/"));
 for (const post of C.blog.posts) write(`/blog/${post.slug}/`, postPage(post));
 writeFileSync(join(OUT, "404.html"), notFoundPage());
 
@@ -418,7 +413,7 @@ const urls = [
   "/blog/",
   ...C.blog.posts.map((p) => `/blog/${p.slug}/`),
   "/child-safety/",
-  "/privacy/",
+  ...(C.privacy.published ? ["/privacy/"] : []),
 ];
 writeFileSync(
   join(OUT, "sitemap.xml"),
